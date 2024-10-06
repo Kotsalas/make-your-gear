@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div></div>
+
+    <h1>ΦΤΙΑΞΕ ΤΟ ΔΙΚΟ ΣΟΥ ΓΡΑΝΑΖΙ</h1>
+
+    <form>
+        <ul>
+            <li><label for="diameter">Διάμετρος: </label><input type="number" min="0" id="diameter"></li>
+            <li><label for="num-of-teeth">Αριθμός Δοντιών: </label><input type="number" id="num-of-teeth" min="2" required></li>
+            <li><label for="size-of-teeth">Μέγεθος Δοντιού: </label><input type="number" id="size-of-teeth" min="0.01" required></li>
+            <li><label for="circumference">Περίμετρος: </label><input type="number" min="0" id="circumference"></li>
+        </ul>
+
+        <button type="submit" id="btn">ΒΡΕΣ</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
